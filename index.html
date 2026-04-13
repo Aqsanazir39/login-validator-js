@@ -5,9 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login-Validator</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+   <script src="script.js" defer></script>
 </head>
+
 <body>
-    
+   <div class="container">
+    <form id="loginForm">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter email">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter password">
+<button type="submit">Login</button>
+    </form>
+    <div class="message"></div>
+   </div>
 </body>
 </html>
