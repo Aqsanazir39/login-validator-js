@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: radial-gradient(circle, #fbcfe8, #d8b4fe);
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 350px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.form-heading {
+  color: rgb(81, 31, 68);
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+label {
+  color: rgb(81, 31, 68);
+  font-weight: 600;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 6px 0 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+/* 🔥 Focus effect */
+input:focus {
+  border-color: rgb(142, 92, 152);
+  box-shadow: 0 0 5px rgba(142, 92, 152, 0.4);
+  outline: none;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: rgb(142, 92, 152);
+  color: white;
+  cursor: pointer;
+  border: none;
+  font-size: 16px;
+  border-radius: 6px;
+  margin-top: 10px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+/* 🔥 Hover effect */
+button:hover {
+  background: rgb(120, 70, 130);
+  transform: translateY(-2px);
+}
+
+.message {
+  margin-top: 15px;
+  font-weight: bold;
+  color: rgb(142, 92, 152);
+  padding: 12px;
+  font-size: 14px;
+  border: 1px solid rgb(142, 92, 152);
+  border-radius: 6px;
+  background-color: rgba(142, 92, 152, 0.1);
+  text-align: center;
+}
