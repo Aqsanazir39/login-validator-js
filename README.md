@@ -1,31 +1,33 @@
 # 🔐 Login Validator
 
-## 📌 Description
+A frontend login validation project built with HTML, CSS and JavaScript.
 
-A simple login form with validation using JavaScript.
+## Features
 
-## 🚀 Features
+- Username validation
+- Password validation
+- Error messages
+- Form interaction
+- DOM manipulation
 
-* Email validation
-* Password strength check
-* Error handling with messages
+## Technologies
 
-## 🛠️ Technologies Used
+- HTML5
+- CSS3
+- JavaScript
 
-* HTML
-* CSS
-* JavaScript
+## What I Learned
 
-## 🎯 What I Learned
+- DOM selection
+- Event listeners
+- Form handling
+- Conditional logic
+- Input validation
 
-* DOM manipulation
-* Conditional statements
-* Form validation logic
+## Live Demo
 
-## 📷 Preview
+...
 
-(Add screenshot here later)
+## Author
 
-## 🔗 Live Demo
-
-(Add link later if deployed)
+Aqsa Nazir
